@@ -61,7 +61,7 @@ export default function NewIncident() {
                 <form onSubmit={handleNewIncident}>
                     <input
                         placeholder="Título do caso"
-                        value={titule}
+                        value={title}
                         onChange={e => setTitulo(e.target.value)}
                     />
                     <textarea
